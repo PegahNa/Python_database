@@ -1,5 +1,4 @@
 import mysql.connector
-import sys
 from config import USER, PASSWORD, HOST
 
 
