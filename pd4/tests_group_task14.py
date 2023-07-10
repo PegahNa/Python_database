@@ -71,3 +71,10 @@ class TestProgram(unittest.TestCase):
             min_waiting_time(patients)
 
 
+    def test_case_empty(self):
+        patients = []
+        expected = 0
+        actual = min_waiting_time(patients)
+        self.assertEqual(actual, expected)
+
+
